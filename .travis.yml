@@ -1,0 +1,11 @@
+language: php
+
+services:
+  - mongodb
+
+env:
+  - OPCODE_CACHE=apc;DB=mongodb
+
+php:
+  - 5.4
+  - 5.5
